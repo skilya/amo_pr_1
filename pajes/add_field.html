@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/general.css">
+</head>
+<body>
+<div class="wrapper">
+    <form action="http://localhost/php/add_field.php" method="post">
+
+
+        <div class="flex">
+            <div class="inp-border half">
+                <p class="inp-note">Введите ID сущности:</p>
+                <input type="text" name="id" class="inp-text" autocomplete="off"/>
+            </div>
+            <div class="inp-border half">
+                <p class="inp-note">Тип сущности:</p>
+                <select type="text" name="obj_type" class="inp-text" autocomplete="off">
+                    <option value="1">Контакт</option>
+                    <option value="3">Компания</option>
+                    <option value="12">Покупатель</option>
+                    <option value="2">Сделка</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="inp-border">
+            <p class="inp-note">Текст для текстового поля:</p>
+            <input type="text" name="text" class="inp-text" autocomplete="off"/>
+        </div>
+        <input type="submit" class="submit">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+    ul {
+        list-style-type: none;
+    }
+        li {
+            margin-bottom: 0.5em;
+        }
+            a {
+                display: block;
+                width: 100%;
+                padding: 0.5em;
+                border: #eeeeee;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            a:visited{
+                color: black;
+            }
+            a:hover {
+                background-color: #111111;
+                color: #eeeeee;
+            }
+
+    p {
+        margin-bottom: 0.5em;
+    }
+    .inp-border {
+        border-radius: 5px;
+        border: 3px solid #eeeeee;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .half {
+        width: 49%;
+        min-width: 200px;
+    }
+    .full {
+        width: 100%;
+    }
+        .inp-text {
+            border: none;
+            outline: none;
+            width: 100%;
+            padding-top: 5px;
+            border-top: 1px solid #eeeeee;
+        }
+        .inp-note {
+            margin: 0;
+        }
+    .submit {
+        padding: 10px 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #eeeeee;
+        cursor: pointer;
+        position: relative;
+        float: right;
+    }
+    .submit:hover {
+        background-color: #111111;
+        color: #eeeeee;
+
+    }
+
+.ac-form-button{
+    padding: 5px 10px;
+    background: #fafafb;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
